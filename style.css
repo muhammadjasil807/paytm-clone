@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#f5faff;
+}
+
+.nav{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px 40px;
+  background:white;
+  border-bottom:1px solid #e4edf5;
+}
+
+.logo{
+  height:38px;
+}
+
+.menu{
+  display:flex;
+  gap:22px;
+}
+
+.menu a{
+  text-decoration:none;
+  color:#333;
+  font-size:15px;
+}
+
+.signin{
+  background:#0d63c9;
+  color:white;
+  border:0;
+  padding:8px 18px;
+  border-radius:20px;
+  font-size:14px;
+}
+
+.top-banner{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+
+.banner-img{
+  width:85%;
+  border-radius:12px;
+}
+
+.recharge-container{
+  width:85%;
+  display:flex;
+  justify-content:space-between;
+  margin:40px auto;
+}
+
+.recharge-box{
+  width:70%;
+  background:white;
+  padding:28px;
+  border-radius:16px;
+  box-shadow:0 2px 12px rgba(0,0,0,0.08);
+}
+
+.recharge-box h2{
+  margin-bottom:25px;
+  font-size:20px;
+}
+
+.icon-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.icon img{
+  width:70px;
+  height:70px;
+}
+
+.icon{
+  text-align:center;
+  font-size:14px;
+  width:120px;
+}
+
+.right-box{
+  width:28%;
+  border-radius:16px;
+  object-fit:cover;
+}
+
+.bottom-banners{
+  width:85%;
+  margin:40px auto 60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  position:relative;
+  z-index:1000;
+}
+
+.bottom-banners img{
+  width:48%;            
+  border-radius:22px;
+  display:block;
+}
+
