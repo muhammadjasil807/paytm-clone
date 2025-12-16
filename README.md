@@ -3,7 +3,7 @@ A responsive **Paytm homepage UI clone** built using **HTML and CSS**
 This project focuses on layout design, section structuring, and clean UI
 
 Project Overview
-This project recreates the **Paytm home page layout** to practice modern web design concepts such as:
+This project recreates the **Paytm home page layout** to practice web design concepts such as:
 * Clean HTML structure
 * Reusable CSS components
 * Navigation bar design
